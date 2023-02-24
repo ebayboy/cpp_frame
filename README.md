@@ -8,8 +8,8 @@
 + google/protobuf 数据交换协议
 + google/grpc 微服务框架
 + google/leveldb NoSQL数据库lib
-+ gperftools(tcmalloc) 性能测试
-+ ASAN 内存问题检测
++ gperftools:  gperftools是Google提供的一套工具(tcmalloc) 性能测试
++ google/sanitizers  AddressSanitizer, ThreadSanitizer, MemorySanitizer
 
 + nginx 
 	- http 10w行
