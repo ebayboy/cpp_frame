@@ -14,7 +14,8 @@
 + nginx 
 	- http 10w行
 	- total 20w行
-+ handy 4/7层网络框架(核心代码4888） [study for c++11
++ muduo: network lib
++ handy 4/7层网络框架(核心代码4888） [study for c++11, muduo的C++11版本]
 + game server framework: skynet (lua + c), 可做tcpserver框架 [重点框架]
 	- 核心代码5590行 \ 2000行C代码service \ 3000行lua service
 + web server framework/rest api: oatpp 核心代码97822, 代码行数太多]
