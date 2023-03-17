@@ -8,6 +8,9 @@
 # cpp编程脚手架
 + json: nlohmann
 + log: spdlog
++ base64/aes等加密、解密: cryptopp
+
+
 + google/protobuf 数据交换协议
 + google/grpc 微服务框架
 + google/leveldb NoSQL数据库lib
