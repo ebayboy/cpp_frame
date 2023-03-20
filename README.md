@@ -1,19 +1,25 @@
 
+
 # tools
 + google/gtest 单元测试
 + google/benchmark 性能测试
 + gperftools:  gperftools是Google提供的一套工具(tcmalloc) 性能测试
 + google/sanitizers  AddressSanitizer, ThreadSanitizer, MemorySanitizer
 
-# cpp编程脚手架
-+ json: nlohmann
-+ log: spdlog
-+ base64/aes等加密、解密: cryptopp
+# cpp编程脚手架 (purposes: lightly)
++ log: git@github.com:gabime/spdlog.git 
++ json: git@github.com:nlohmann/json.git
++ YAML: git@github.com:jbeder/yaml-cpp.git
 
++ Base64: Agit@github.com:ReneNyffenegger/cpp-base64.git)  
++ AES: git@github.com:SergeyBel/AES.git) 
++ MD5: git@github.com:JieweiWei/md5.git
 
-+ google/protobuf 数据交换协议
-+ google/grpc 微服务框架
-+ google/leveldb NoSQL数据库lib
++ mysql: git@github.com:mysql/mysql-connector-cpp.git
++ redis: git@github.com:redis/hiredis.git
+
++ protobuf: git@github.com:protocolbuffers/protobuf.git
++ grpc: git@github.com:grpc/grpc.git
 
 + nginx 
 	- http 10w行
@@ -32,3 +38,5 @@
 + mq lib: zero mq, cppzmq(https://github.com/zeromq/cppzmq.git)
 + clickhouse  实时计算数据库
 + CProxy 内网穿透， 类似于frp
++ base64/aes/md5等加密、解密: cryptopp  【重量级】
++ leveldb: git@github.com:google/leveldb.git
