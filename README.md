@@ -6,21 +6,26 @@
 + gperftools:  gperftools是Google提供的一套工具(tcmalloc) 性能测试
 + google/sanitizers  AddressSanitizer, ThreadSanitizer, MemorySanitizer
 
-# cpp编程脚手架 (purposes: lightly)
+# cpp基础组件 lightly 
 + log: git@github.com:gabime/spdlog.git 
 + json: git@github.com:nlohmann/json.git
 + YAML: git@github.com:jbeder/yaml-cpp.git
 
 + Base64: Agit@github.com:ReneNyffenegger/cpp-base64.git)  
-+ AES: git@github.com:SergeyBel/AES.git) 
 + MD5: git@github.com:JieweiWei/md5.git
++ AES: git@github.com:SergeyBel/AES.git) 
 
 + mysql: git@github.com:mysql/mysql-connector-cpp.git
 + redis: git@github.com:redis/hiredis.git
++ curl: git@github.com:jpbarrette/curlpp.git
 
 + protobuf: git@github.com:protocolbuffers/protobuf.git
 + grpc: git@github.com:grpc/grpc.git
 
+
+# 其他框架
++ modsecurity
++ web framework: git@github.com:drogonframework/drogon.git
 + nginx 
 	- http 10w行
 	- total 20w行
